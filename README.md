@@ -41,8 +41,8 @@ double click to run_app.cmd
             this.cnslPrint(pathSource, Color.LIGHT_GRAY);
             
             switch (type){
-      case "your_type_file":
-               ClassYourFiler filter = new ClassYourFiler filter();
+                case "your_type_file":
+                    ClassYourFiler filter = new ClassYourFiler filter();
                     filter.setPathSource(pathSource);
                     filter.setPathResult(pathResult);
                     filter.run();
